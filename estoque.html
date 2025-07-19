@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Estoque Central - A.T</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    nav a {
+      color: white;
+      background-color: #666;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      background-color: #ddd;
+      padding: 10px;
+      border-left: 6px solid #444;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Estoque Central - Assistência Técnica</h1>
+  </header>
+
+  <nav>
+    <a href="#frontal_iphone">Frontal iPhone</a>
+    <a href="#bateria_iphone">Bateria iPhone</a>
+    <a href="#flex_carga_iphone">Flex Carga iPhone</a>
+    <a href="#camera_frontal_iphone">Câmera Frontal iPhone</a>
+    <a href="#camera_traseira_iphone">Câmera Traseira iPhone</a>
+    <a href="#baterias_ipad">Baterias iPad</a>
+    <a href="#touch_ipad">Touch iPad</a>
+    <a href="#lcd_ipad">LCD iPad</a>
+    <a href="#frontal_android">Frontal Android</a>
+    <a href="#bateria_android">Bateria Android</a>
+    <a href="#sub_placa_carga_android">Sub-Placa Carga Android</a>
+  </nav>
+
+  <section id="frontal_iphone">
+    <h2>Frontal iPhone</h2>
+    <table>
+      <tr><th>Modelo</th><th>Cor da Frontal</th><th>Quantidade</th></tr>
+      <tr><td>iPhone 5</td><td>Preta</td><td>2</td></tr>
+      <tr><td>iPhone 5</td><td>Branca</td><td>1</td></tr>
+      <tr><td>iPhone 5c</td><td>Preta</td><td>1</td></tr>
+    </table>
+  </section>
+
+  <section id="bateria_iphone">
+    <h2>Bateria iPhone</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>iPhone 5</td><td>1</td></tr>
+      <tr><td>iPhone 5c</td><td>0</td></tr>
+      <tr><td>iPhone 5s</td><td>0</td></tr>
+    </table>
+  </section>
+
+  <section id="flex_carga_iphone">
+    <h2>Flex Carga iPhone</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>iPhone 5</td><td>1</td></tr>
+      <tr><td>iPhone 5c</td><td>1</td></tr>
+      <tr><td>iPhone 5s</td><td>0</td></tr>
+    </table>
+  </section>
+
+  <section id="camera_frontal_iphone">
+    <h2>Câmera Frontal iPhone</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>iPhone 5</td><td>1</td></tr>
+      <tr><td>iPhone 5c</td><td>0</td></tr>
+      <tr><td>iPhone 5s</td><td>0</td></tr>
+    </table>
+  </section>
+
+  <section id="camera_traseira_iphone">
+    <h2>Câmera Traseira iPhone</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>iPhone 5</td><td>0</td></tr>
+      <tr><td>iPhone 5c</td><td>0</td></tr>
+      <tr><td>iPhone 5s</td><td>0</td></tr>
+    </table>
+  </section>
+
+  <section id="baterias_ipad">
+    <h2>Baterias iPad</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>iPad 2</td><td>0</td></tr>
+      <tr><td>iPad 3 / 4</td><td>1</td></tr>
+      <tr><td>iPad 5ª geração (2017)</td><td>1</td></tr>
+    </table>
+  </section>
+
+  <section id="touch_ipad">
+    <h2>Touch iPad</h2>
+    <table>
+      <tr><th>Modelo</th><th>Cor do Touch</th><th>Quantidade</th></tr>
+      <tr><td>iPad 2</td><td>Preto</td><td>1</td></tr>
+      <tr><td>iPad 2</td><td>Branco</td><td>1</td></tr>
+      <tr><td>iPad 3/4</td><td>Preto</td><td>0</td></tr>
+    </table>
+  </section>
+
+  <section id="lcd_ipad">
+    <h2>LCD iPad</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>iPad 2</td><td>1</td></tr>
+      <tr><td>iPad 3/4</td><td>1</td></tr>
+      <tr><td>iPad 5ª geração (2017)</td><td>1</td></tr>
+    </table>
+  </section>
+
+  <section id="frontal_android">
+    <h2>Frontal Android</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>FRONTAL S21 C/ARO AZUL ESCURO</td><td>1</td></tr>
+      <tr><td>A15 5G</td><td>1</td></tr>
+      <tr><td>A14 5G</td><td>1</td></tr>
+    </table>
+  </section>
+
+  <section id="bateria_android">
+    <h2>Bateria Android</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>S9 PLUS</td><td>1</td></tr>
+      <tr><td>SAM A30</td><td>1</td></tr>
+      <tr><td>MOTO JK50 (G7 POWER,68 POWER LITE,69 PLAY,G10,...)</td><td>1</td></tr>
+    </table>
+  </section>
+
+  <section id="sub_placa_carga_android">
+    <h2>Sub-Placa Carga Android</h2>
+    <table>
+      <tr><th>Modelo</th><th>Quantidade</th></tr>
+      <tr><td>NOTE 10 LITE</td><td>2</td></tr>
+      <tr><td>A12</td><td>1</td></tr>
+      <tr><td>A30</td><td>2</td></tr>
+    </table>
+  </section>
+</body>
+</html>
